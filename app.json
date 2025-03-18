@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "destaquenoticiasApp",
+    "name": "Destaque notícias",
     "slug": "destaquenoticiasApp",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.murillo_lima.destaquenoticiasApp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "523556aa-9df6-4064-9401-25382ba10947"
+      }
     }
   }
 }
